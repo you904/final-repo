@@ -28,7 +28,7 @@ app.use(cookieParser());
 
 // Set up CORS options
 const corsOptions = {
-  origin: "*",
+  origin: "https://final-repo-jet.vercel.app/",
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow these methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers
   credentials: true
