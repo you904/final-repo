@@ -28,7 +28,7 @@ app.use(cookieParser());
 
 // Set up CORS options
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://final-repo-jet.vercel.app",
   credentials: true
 };
 app.use(cors(corsOptions));
