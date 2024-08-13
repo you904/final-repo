@@ -31,7 +31,8 @@ const corsOptions = {
   origin: "https://final-repo-jet.vercel.app",
   credentials: true
 };
-app.use(cors(corsOptions));
+
+app.options('*', cors(corsOptions)); // Include before defining your routes
 
 // Set up Express layouts and view engine
 app.use(expressLayout);
